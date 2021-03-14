@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>DYNAMIC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- STYLE -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.5.0/swiper-bundle.css" integrity="sha512-zamNaJKO5w/Mas6MRe/0y1k2iI0oBLkU/z4yXcXSuAiOEBYqahjU6uOWq3r5z491YZexyUbPOrQKMpaAS8PI+w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.min.css">
+    <!-- STYLE -->
+</head>
+
+<body>
+
+    <header class="header" id="header">
+    <div class="header_container">
+        <div class="burger_menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo.svg" alt="Header Logo">
+            </a>
+        </div>
+
+        <nav class="nav_menu">
+            <ul class="menu_list">
+                <li class="menu_item"><a href="index.html" class="menu_link">Home</a></li>
+                <li class="menu_item"><a href="about-us.html" class="menu_link">About Us</a></li>
+                <li class="menu_item with_submenu">
+                    <a href="#" class="menu_link">
+                        <span>Services</span>
+                        <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11 1L6 6L1 1" stroke="#15252D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    <div class="container submenu_container">
+                        <div class="submenu_block">
+                            <ul class="submenu">
+                                <li class="submenu_title">
+                                    <span>Consultanță în Afaceri și Management:</span>
+                                    <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11 1L6 6L1 1" stroke="#15252D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </li>
+                                <li class="submenu_item"><a href="service-single.html" class="submenu_link">Risk Management</a></li>
+                                <li class="submenu_item"><a href="#" class="submenu_link">Tranzacții</a></li>
+                                <li class="submenu_item"><a href="#" class="submenu_link">Relații de Export</a></li>
+                                <li class="submenu_item"><a href="#" class="submenu_link">Intermediere Comercială</a></li>
+                                <li class="submenu_item"><a href="#" class="submenu_link">Atragerea Investițiilor</a></li>
+                                <li class="submenu_item"><a href="#" class="submenu_link">Atragerea Granturilor și a altor Fonduri Nerambursabile</a></li>
+                                <li class="submenu_item"><a href="#" class="submenu_link">Elaborare și Implementare a Softurilor Operaționale</a></li>
+                                <li class="submenu_item"><a href="#" class="submenu_link">Automatizare Business Procese</a></li>
+                                <li class="submenu_item"><a href="#" class="submenu_link">Lansare Start-Up</a></li>
+                            </ul>
+                            <ul class="submenu">
+                                <li class="submenu_title">
+                                    <span>Consultanță Financiară:</span>
+                                    <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11 1L6 6L1 1" stroke="#15252D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </li>
+                                <li class="submenu_item"><a href="#" class="submenu_link">Audit și ale Servicii Conexe</a></li>
+                                <li class="submenu_item"><a href="#" class="submenu_link">Contabilitate și alte Servicii Conexe</a></li>
+                                <li class="submenu_item"><a href="#" class="submenu_link">Asistență Fiscală</a></li>
+                                <li class="submenu_item"><a href="#" class="submenu_link">Elaborare Planuri de Afaceri</a></li>
+                                <li class="submenu_item"><a href="#" class="submenu_link">Elaborare Bugete și Executarea lor</a></li>
+                            </ul>
+                            <ul class="submenu">
+                                <li class="submenu_title">
+                                    <span>Consultanță Juridică:</span>
+                                    <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11 1L6 6L1 1" stroke="#15252D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </li>
+                                <li class="submenu_item"><a href="#" class="submenu_link">Consultanță și Asistență Juridică Națională</a></li>
+                                <li class="submenu_item"><a href="#" class="submenu_link">Consultanță și Asistență Juridică Internațională </a></li>
+                                <li class="submenu_item"><a href="#" class="submenu_link">Avocatură</a></li>
+                                <li class="submenu_item"><a href="#" class="submenu_link">Reorganizarea Afacerilor</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu_item"><a href="covid.html" class="menu_link">Covid 19</a></li>
+                <li class="menu_item"><a href="blog.html" class="menu_link">Blog</a></li>
+                <li class="menu_item"><a href="contacts.html" class="menu_link">Contacts</a></li>
+                <li class="menu_item"><a href="carrier.html" class="menu_link">Cariere</a></li>
+                <li class="menu_item"><a href="clients.html" class="menu_link">Clienti</a></li>
+                <li class="menu_item"><a href="partner.html" class="menu_link">Parteneri</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</header>
+
+    <main class="main">
+        <div class="page_header page_header-covid" style="background: url('img/covid-header.jpg') 50% 50% / cover no-repeat;">
+            <div class="container">
+                <h1 class="page_header-title">Covid-19</h1>
+                <p class="page_header-subpage">Home/ Covid-19</p>
+            </div>
+        </div>
+
+        <div class="appeal">
+            <div class="container appeal__container">
+                <div class="appeal-quote">
+                    <p>
+                        În istoria omenirii au fost atestate mai multe crize economice și financiare care a avut un impact major la nivel mondial. Fiecare criză își are cauzele sale și, corespunzător, soluțiile de depășire și de gestionare a efectelor crizei. Riscurile economice
+                        și finanicare pot fi gestionate cu succes doar în situația aplicării rapide și eficiente a instrumentelor specifice crizelor economice și finanicare.
+                    </p>
+                </div>
+                <div class="appeal-text">
+                    <h2 class="appeal-title">Stimate Partener!</h2>
+                    <p>
+                        Începând cu luna martie a anului 2020 întreaga omenire și mediul de afaceri este afectat de efectele în serie provocate de pandemia <b>COVID-19</b>. Această pandemie sanitară produce riscuri majore antreprenoriale, valutare și
+                        investiționale, prejudicii economice și financiare, blocarea sau suspendarea planurilor de afaceri, distrugeri și pierderi de afaceri și sectoare întregi ale economiei (HORECA, servicii avia, servicii de transport, finanțe, etc.),
+                        insolvențe în lanț, stare de panică și incertitudine în planificarea și gestionarea afacerilor private.
+                    </p>
+                    <p>
+                        Ca regulă a ciclurilor economice, crizele financiare globale, circumstanțele și efectele acesteia verifică durabilitatea mediului de afaceri, în cadrul căruia cineva rezistă, iar cineva – nu, cu regret...
+
+                    </p>
+                    <p>
+                        Necesită de accentuat că pe plan internațional există o serie de mecanisme și instrumente prin intermediul cărora se poate de administrat riscurile provocate de crize economice și financiare și se pot depăși situațiile dificile cu efecte catastrofice.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="resolve" style="background: url('img/covid-image.jpg') 50% 50% / cover no-repeat;">
+            <div class="container">
+                <h3 class="resolve-text">
+                    Astfel, în scopul menținerii afacerii și traversării cu succes a perioadei de criză 2020 – 2022 Vă informăm că echipa noastră de specialiști este pregătită să Vă acorde un suport anticriză și împreună cu DVS să acționăm în următoarele direcții prioritare:
+                </h3>
+            </div>
+        </div>
+
+        <div class="resolve-options">
+            <div class="container">
+                <ul class="resolve__list">
+                    <li class="resolve__item">
+                        <img src="img/service1.svg" alt="" class="resolve-logo">
+                        <p class="resolve__text">
+                            Menținerea vânzărilor, acumulării cash-flow-ului și posedării lichidităților necesare pentru activitatea operațională a companiei;
+                        </p>
+                    </li>
+                    <li class="resolve__item">
+                        <img src="img/service1.svg" alt="" class="resolve-logo">
+                        <p class="resolve__text">
+                            Menținerea vânzărilor, acumulării cash-flow-ului și posedării lichidităților necesare pentru activitatea operațională a companiei;
+                        </p>
+                    </li>
+                    <li class="resolve__item">
+                        <img src="img/service1.svg" alt="" class="resolve-logo">
+                        <p class="resolve__text">
+                            Menținerea vânzărilor, acumulării cash-flow-ului și posedării lichidităților necesare pentru activitatea operațională a companiei;
+                        </p>
+                    </li>
+                    <li class="resolve__item">
+                        <img src="img/service1.svg" alt="" class="resolve-logo">
+                        <p class="resolve__text">
+                            Menținerea vânzărilor, acumulării cash-flow-ului și posedării lichidităților necesare pentru activitatea operațională a companiei;
+                        </p>
+                    </li>
+                    <li class="resolve__item">
+                        <img src="img/service1.svg" alt="" class="resolve-logo">
+                        <p class="resolve__text">
+                            Menținerea vânzărilor, acumulării cash-flow-ului și posedării lichidităților necesare pentru activitatea operațională a companiei;
+                        </p>
+                    </li>
+                    <li class="resolve__item">
+                        <img src="img/service1.svg" alt="" class="resolve-logo">
+                        <p class="resolve__text">
+                            Menținerea vânzărilor, acumulării cash-flow-ului și posedării lichidităților necesare pentru activitatea operațională a companiei;
+                        </p>
+                    </li>
+                    <li class="resolve__item">
+                        <img src="img/service1.svg" alt="" class="resolve-logo">
+                        <p class="resolve__text">
+                            Menținerea vânzărilor, acumulării cash-flow-ului și posedării lichidităților necesare pentru activitatea operațională a companiei;
+                        </p>
+                    </li>
+                    <li class="resolve__item">
+                        <img src="img/service1.svg" alt="" class="resolve-logo">
+                        <p class="resolve__text">
+                            Menținerea vânzărilor, acumulării cash-flow-ului și posedării lichidităților necesare pentru activitatea operațională a companiei;
+                        </p>
+                    </li>
+                    <li class="resolve__item">
+                        <img src="img/service1.svg" alt="" class="resolve-logo">
+                        <p class="resolve__text">
+                            Menținerea vânzărilor, acumulării cash-flow-ului și posedării lichidităților necesare pentru activitatea operațională a companiei;
+                        </p>
+                    </li>
+                    <li class="resolve__item">
+                        <img src="img/service1.svg" alt="" class="resolve-logo">
+                        <p class="resolve__text">
+                            Menținerea vânzărilor, acumulării cash-flow-ului și posedării lichidităților necesare pentru activitatea operațională a companiei;
+                        </p>
+                    </li>
+                    <li class="resolve__item">
+                        <img src="img/service1.svg" alt="" class="resolve-logo">
+                        <p class="resolve__text">
+                            Menținerea vânzărilor, acumulării cash-flow-ului și posedării lichidităților necesare pentru activitatea operațională a companiei;
+                        </p>
+                    </li>
+                    <li class="resolve__item">
+                        <img src="img/service1.svg" alt="" class="resolve-logo">
+                        <p class="resolve__text">
+                            Menținerea vânzărilor, acumulării cash-flow-ului și posedării lichidităților necesare pentru activitatea operațională a companiei;
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="resolve-steps">
+            <div class="container">
+                <h3 class="resolve__title">What we need to do</h3>
+                <div class="resolve-steps__grid">
+                    <div class="steps__item">
+                        <h4 class="step__num">1</h4>
+                        <div class="step__devider"></div>
+                        <p class="step__text">
+                            Renegocierea contractelor cu băncile (restructurarea creditelor), cu furnizorii interni și externi, cu alți creditori în scopul obținerii condițiilor mai avantajoase (reduceri esențiale, plata în tranșe mai mari, eliberarea în avans, etc.)
+                        </p>
+                    </div>
+                    <div class="steps__item">
+                        <h4 class="step__num">2</h4>
+                        <div class="step__devider"></div>
+                        <p class="step__text">
+                            Renegocierea contractelor cu băncile (restructurarea creditelor), cu furnizorii interni și externi, cu alți creditori în scopul obținerii condițiilor mai avantajoase (reduceri esențiale, plata în tranșe mai mari, eliberarea în avans, etc.)
+                        </p>
+                    </div>
+                    <div class="steps__item">
+                        <h4 class="step__num">3</h4>
+                        <div class="step__devider"></div>
+                        <p class="step__text">
+                            Renegocierea contractelor cu băncile (restructurarea creditelor), cu furnizorii interni și externi, cu alți creditori în scopul obținerii condițiilor mai avantajoase (reduceri esențiale, plata în tranșe mai mari, eliberarea în avans, etc.)
+                        </p>
+                    </div>
+                    <div class="steps__item">
+                        <h4 class="step__num">4</h4>
+                        <div class="step__devider"></div>
+                        <p class="step__text">
+                            Renegocierea contractelor cu băncile (restructurarea creditelor), cu furnizorii interni și externi, cu alți creditori în scopul obținerii condițiilor mai avantajoase (reduceri esențiale, plata în tranșe mai mari, eliberarea în avans, etc.)
+                        </p>
+                    </div>
+                    <div class="steps__item">
+                        <h4 class="step__num">1</h4>
+                        <div class="step__devider"></div>
+                        <p class="step__text">
+                            Renegocierea contractelor cu băncile (restructurarea creditelor), cu furnizorii interni și externi, cu alți creditori în scopul obținerii condițiilor mai avantajoase (reduceri esențiale, plata în tranșe mai mari, eliberarea în avans, etc.)
+                        </p>
+                    </div>
+                    <div class="steps__item">
+                        <h4 class="step__num">2</h4>
+                        <div class="step__devider"></div>
+                        <p class="step__text">
+                            Renegocierea contractelor cu băncile (restructurarea creditelor), cu furnizorii interni și externi, cu alți creditori în scopul obținerii condițiilor mai avantajoase (reduceri esențiale, plata în tranșe mai mari, eliberarea în avans, etc.)
+                        </p>
+                    </div>
+                    <div class="steps__item">
+                        <h4 class="step__num">3</h4>
+                        <div class="step__devider"></div>
+                        <p class="step__text">
+                            Renegocierea contractelor cu băncile (restructurarea creditelor), cu furnizorii interni și externi, cu alți creditori în scopul obținerii condițiilor mai avantajoase (reduceri esențiale, plata în tranșe mai mari, eliberarea în avans, etc.)
+                        </p>
+                    </div>
+                    <div class="steps__item">
+                        <h4 class="step__num">4</h4>
+                        <div class="step__devider"></div>
+                        <p class="step__text">
+                            Renegocierea contractelor cu băncile (restructurarea creditelor), cu furnizorii interni și externi, cu alți creditori în scopul obținerii condițiilor mai avantajoase (reduceri esențiale, plata în tranșe mai mari, eliberarea în avans, etc.)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="recomandation">
+            <div class="container">
+                <div class="recomandation_header">
+                    <div class="recomandation_header-left">
+                        <small class="recomandation_minititle">our blog</small>
+                        <h2 class="recomandation_title">Read latest news about it</h2>
+                        <p class="recomandation_descr">Integer dapibus tortor quis diam viverra scelerisque. Cras in enim lacus. Phasellus vitae risus vitae odio commodo accumsan.</p>
+                    </div>
+
+                    <div class="recomandation_header-right">
+                        <a href="#" class="recomandation_button transparent-btn">View all</a>
+                        <div class="swiper__controls">
+                            <div class="swiper-arrow rec-button-prev">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M20 12H4" stroke="#15252D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M11 5L4 12L11 19" stroke="#15252D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div class="dev"></div>
+                            <div class="swiper-arrow rec-button-next">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4 12H20" stroke="#15252D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M13 5L20 12L13 19" stroke="#15252D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="recomandation_body">
+                    <div class="post__recomandation-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <article class="blog-article">
+                                    <img src="img/blog-post2.jpg" alt="Firs Post" class="post_thumb">
+                                    <p class="blog-article__category">BLOG</p>
+                                    <h5 class="blog-article__title">How common metrics can drive long-term value creation</h5>
+                                    <div class="blog-article__devider"></div>
+                                    <a href="#" class="post_permalink">
+                                        <span>Read more</span>
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M4 12H20" stroke="#E7272E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M13 5L20 12L13 19" stroke="#E7272E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
+                                </article>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <article class="blog-article">
+                                    <img src="img/blog-post1.jpg" alt="Firs Post" class="post_thumb">
+                                    <p class="blog-article__category">BLOG</p>
+                                    <h5 class="blog-article__title">How common metrics can drive long-term value creation</h5>
+                                    <div class="blog-article__devider"></div>
+                                    <a href="#" class="post_permalink">
+                                        <span>Read more</span>
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M4 12H20" stroke="#E7272E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M13 5L20 12L13 19" stroke="#E7272E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
+                                </article>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <article class="blog-article">
+                                    <img src="img/blog-post3.jpg" alt="Firs Post" class="post_thumb">
+                                    <p class="blog-article__category">BLOG</p>
+                                    <h5 class="blog-article__title">How common metrics can drive long-term value creation</h5>
+                                    <div class="blog-article__devider"></div>
+                                    <a href="#" class="post_permalink">
+                                        <span>Read more</span>
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M4 12H20" stroke="#E7272E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M13 5L20 12L13 19" stroke="#E7272E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
+                                </article>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <article class="blog-article">
+                                    <img src="img/blog-post1.jpg" alt="Firs Post" class="post_thumb">
+                                    <p class="blog-article__category">BLOG</p>
+                                    <h5 class="blog-article__title">How common metrics can drive long-term value creation</h5>
+                                    <div class="blog-article__devider"></div>
+                                    <a href="#" class="post_permalink">
+                                        <span>Read more</span>
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M4 12H20" stroke="#E7272E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M13 5L20 12L13 19" stroke="#E7272E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
+                                </article>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <article class="blog-article">
+                                    <img src="img/blog-post2.jpg" alt="Firs Post" class="post_thumb">
+                                    <p class="blog-article__category">BLOG</p>
+                                    <h5 class="blog-article__title">How common metrics can drive long-term value creation</h5>
+                                    <div class="blog-article__devider"></div>
+                                    <a href="#" class="post_permalink">
+                                        <span>Read more</span>
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M4 12H20" stroke="#E7272E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M13 5L20 12L13 19" stroke="#E7272E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer" id="footer">
+    <div class="container">
+        <div class="footer_body">
+            <div class="footer_company">
+                <a href="#" class="footer_logo">
+                    <img src="img/logo.svg" alt="Logo">
+                </a>
+                <p class="company_descr">Your ulitmate email solution to grow business and engaging with future customers and clients.</p>
+                <a href="#" class="footer_button accent-btn">Get quote</a>
+            </div>
+            <div class="footer_lists">
+                <div class="list_block">
+                    <h4 class="list_title">Community</h4>
+                    <ul class="footer_list">
+                        <li class="list_item"><a href="#" class="list_link">Blog</a></li>
+                        <li class="list_item"><a href="#" class="list_link">For Companies</a></li>
+                        <li class="list_item"><a href="#" class="list_link">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="list_block">
+                    <h4 class="list_title">About us</h4>
+                    <ul class="footer_list">
+                        <li class="list_item"><a href="#" class="list_link">Meet the team</a></li>
+                        <li class="list_item"><a href="#" class="list_link">Our Story</a></li>
+                        <li class="list_item"><a href="#" class="list_link">Services</a></li>
+                    </ul>
+                </div>
+                <div class="list_block">
+                    <h4 class="list_title">Contacts</h4>
+                    <p class="contacts_descr">Feel free to get in touch with us via phone or send us a message.</p>
+                    <a href="tel:+37367525214" class="contacts_data">+1-301-340-3946</a>
+                    <a href="mailto:info@dynamic.com" class="contacts_data">info@dynamic.com</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer_devider"></div>
+        <p class="footer_copy">© Dynamic 2020, All Rights Reserved</p>
+    </div>
+</footer>
+
+    <!-- SCRTIPTS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.5.0/swiper-bundle.min.js" integrity="sha512-VfcksjYXPZW36rsAGxeRGdB0Kp/htJF9jY5nlofHtRtswIB+scY9sbCJ5FdpdqceRRkpFfHZ3a9AHuoL4zjG5Q==" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <!-- SCRTIPTS -->
+</body>
+
+</html>
